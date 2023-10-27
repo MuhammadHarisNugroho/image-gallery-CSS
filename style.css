@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    background: #000000;
+    display: grid;
+    place-items: center;
+  }
+  
+  
+  .gallery {
+    display: flex;
+    width: 440px;
+    height: 200px;
+  }
+  
+  .gallery img {
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  
+  .gallery img:hover {
+    flex: 1 1 280px;
+    opacity: 1;
+  }
